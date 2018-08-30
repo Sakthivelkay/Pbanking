@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Step1: Login to RallyChoice Application]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step2: Enter Employers Name]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Employer Name-New Hire Testing Customer 05]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step3: navigate To Employee Detail Page]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step4: select check box]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Employee Name-CFQGGR]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Employee City Name -Chicago]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Employee Zip Code -60606]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Employee State-IL]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Class Type-Non-Union]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step5: Click on complete button]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Employee Add Success Validation :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Employee Add Success ValidationPass4058.png target='blank'> <img src=test-output\Screenshots\Employee Add Success ValidationPass4058.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Enter the Employer name-CFQGGR]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Enrollment Is Open Page Navigation :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Enrollment Is Open Page NavigationPass4129.png target='blank'> <img src=test-output\Screenshots\Enrollment Is Open Page NavigationPass4129.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: ReviewYourInfo Page Navigation :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\ReviewYourInfo Page NavigationPass4136.png target='blank'> <img src=test-output\Screenshots\ReviewYourInfo Page NavigationPass4136.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: DoYouHaveDependentsPage Navigation :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\DoYouHaveDependentsPage NavigationPass4144.png target='blank'> <img src=test-output\Screenshots\DoYouHaveDependentsPage NavigationPass4144.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Dependant Details :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Dependant DetailsPass4146.png target='blank'> <img src=test-output\Screenshots\Dependant DetailsPass4146.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step6: Enter Dependent Details]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Dependent FirstName-Sandy]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Dependent LastName-Joe]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: SSN_TIN-6663455432]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: Dependent DOB-05061995]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: YourFamilyPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\YourFamilyPagePass4217.png target='blank'> <img src=test-output\Screenshots\YourFamilyPagePass4217.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: YouareWellOnyourWayPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\YouareWellOnyourWayPagePass4227.png target='blank'> <img src=test-output\Screenshots\YouareWellOnyourWayPagePass4227.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step7: Click On Enroll Health on Benefits Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step8: clickAvailableHealthPlans in HealthBenefitsPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: HealthBenefitsPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4237.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4237.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step9: clickContinueHealthPlans in HealthBenefitsPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: HealthBenefitsPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4243.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4243.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step10: clickContinueCoverHealthPlans in HealthBenefitsPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: HealthBenefitsPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4249.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4249.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step11: Click On waive Dental on Benefits Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Dental Waived Verification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Dental Waived VerificationPass4303.png target='blank'> <img src=test-output\Screenshots\Dental Waived VerificationPass4303.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step12: Click On waive Vision on Benefits Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Vision Waived Verification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Vision Waived VerificationPass4314.png target='blank'> <img src=test-output\Screenshots\Vision Waived VerificationPass4314.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step13: Click On saveAndContinue on Benefits Portfolio Page]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: PrimaryCarePhysicianPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\PrimaryCarePhysicianPagePass4325.png target='blank'> <img src=test-output\Screenshots\PrimaryCarePhysicianPagePass4325.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: MoreThanBenefitPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\MoreThanBenefitPagePass4332.png target='blank'> <img src=test-output\Screenshots\MoreThanBenefitPagePass4332.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: MemberOfYourFamilyPregnantPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4342.png target='blank'> <img src=test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4342.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: StressAffectingPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\StressAffectingPagePass4349.png target='blank'> <img src=test-output\Screenshots\StressAffectingPagePass4349.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: MemberOfYourFamilyPregnantPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4354.png target='blank'> <img src=test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4354.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: HealthBeginPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBeginPagePass4400.png target='blank'> <img src=test-output\Screenshots\HealthBeginPagePass4400.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step14: Click on button on We are almost there Page]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: wearealmosttherPageSaveVerification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\wearealmosttherPageSaveVerificationPass4408.png target='blank'> <img src=test-output\Screenshots\wearealmosttherPageSaveVerificationPass4408.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Parameter: phone no-666-666-6666]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step15: Click On Phone type on contactPhoneNumberPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step16: click Continue on contactPhoneNumberPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: contactPhoneNumberSaveVerification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\contactPhoneNumberSaveVerificationPass4427.png target='blank'> <img src=test-output\Screenshots\contactPhoneNumberSaveVerificationPass4427.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step17: click Continue on yourContactInfoPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: YourContactInfoPageSaveVerification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\YourContactInfoPageSaveVerificationPass4433.png target='blank'> <img src=test-output\Screenshots\YourContactInfoPageSaveVerificationPass4433.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step18: click Going Paperless link on GoingPaperlessPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: GoingPaperlessPageSaveVerification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\GoingPaperlessPageSaveVerificationPass4440.png target='blank'> <img src=test-output\Screenshots\GoingPaperlessPageSaveVerificationPass4440.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step19: click clickCheckout on CheckoutPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step20: click Check Box on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step21: click Complete Enrollment on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: completeEnrolVerifiction :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\completeEnrolVerifictionPass4452.png target='blank'> <img src=test-output\Screenshots\completeEnrolVerifictionPass4452.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step22: Click exit]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step23: VerifyPendingLink on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: VerifyPendingLink :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\VerifyPendingLinkPass4506.png target='blank'> <img src=test-output\Screenshots\VerifyPendingLinkPass4506.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step24: click Pending Link on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step25: click Employee Name Link on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Element found and performing next actions required ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: PendingEventPageVerification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\PendingEventPageVerificationPass4519.png target='blank'> <img src=test-output\Screenshots\PendingEventPageVerificationPass4519.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step26: click Reject on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: RejectingEnrollmentPage :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\RejectingEnrollmentPagePass4550.png target='blank'> <img src=test-output\Screenshots\RejectingEnrollmentPagePass4550.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Step2RejectMessageVerification :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Step2RejectMessageVerificationPass4551.png target='blank'> <img src=test-output\Screenshots\Step2RejectMessageVerificationPass4551.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step27: click Submit on ReviewandAcceptPage ]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step28: Enrollment closed screen]]>
+    </line>
+    <line>
+      <![CDATA[<br>Button View My Button - Enrollment Reject is successfull]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: Enrollment Rejected-ViewMyBenefits button is not displayed :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\Enrollment Rejected-ViewMyBenefits button is not displayedPass5126.png target='blank'> <img src=test-output\Screenshots\Enrollment Rejected-ViewMyBenefits button is not displayedPass5126.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step29: Click exit]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step30: logOut ]]>
+    </line>
+    <line>
+      <![CDATA[<br> Step Result: LogoutCompleted :Passed]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a href=file:test-output\Screenshots\LogoutCompletedPass5213.png target='blank'> <img src=test-output\Screenshots\LogoutCompletedPass5213.png target='blank' height='300' width='500' /> </a></br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="740778" started-at="2018-08-29T17:09:57Z" finished-at="2018-08-29T17:22:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.UAT.RallyChoice.Automation.Utilities.CucumberRunner@3c0ecd4b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="740778" started-at="2018-08-29T17:09:57Z" finished-at="2018-08-29T17:22:18Z">
+      <class name="com.UAT.RallyChoice.Automation.Utilities.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.UAT.RallyChoice.Automation.Utilities.CucumberRunner@3c0ecd4b]" name="setUpClass" is-config="true" duration-ms="442" started-at="2018-08-29T22:39:58Z" finished-at="2018-08-29T22:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.UAT.RallyChoice.Automation.Utilities.CucumberRunner@3c0ecd4b]" name="feature" duration-ms="739615" started-at="2018-08-29T22:39:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-29T22:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RallyChoice Scenarios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step1: Login to RallyChoice Application]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step2: Enter Employers Name]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Employer Name-New Hire Testing Customer 05]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step3: navigate To Employee Detail Page]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step4: select check box]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Employee Name-CFQGGR]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Employee City Name -Chicago]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Employee Zip Code -60606]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Employee State-IL]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Class Type-Non-Union]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step5: Click on complete button]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Employee Add Success Validation :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Employee Add Success ValidationPass4058.png target='blank'> <img src=test-output\Screenshots\Employee Add Success ValidationPass4058.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Enter the Employer name-CFQGGR]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Enrollment Is Open Page Navigation :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Enrollment Is Open Page NavigationPass4129.png target='blank'> <img src=test-output\Screenshots\Enrollment Is Open Page NavigationPass4129.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: ReviewYourInfo Page Navigation :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\ReviewYourInfo Page NavigationPass4136.png target='blank'> <img src=test-output\Screenshots\ReviewYourInfo Page NavigationPass4136.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: DoYouHaveDependentsPage Navigation :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\DoYouHaveDependentsPage NavigationPass4144.png target='blank'> <img src=test-output\Screenshots\DoYouHaveDependentsPage NavigationPass4144.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Dependant Details :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Dependant DetailsPass4146.png target='blank'> <img src=test-output\Screenshots\Dependant DetailsPass4146.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step6: Enter Dependent Details]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Dependent FirstName-Sandy]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Dependent LastName-Joe]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: SSN_TIN-6663455432]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: Dependent DOB-05061995]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: YourFamilyPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\YourFamilyPagePass4217.png target='blank'> <img src=test-output\Screenshots\YourFamilyPagePass4217.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: YouareWellOnyourWayPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\YouareWellOnyourWayPagePass4227.png target='blank'> <img src=test-output\Screenshots\YouareWellOnyourWayPagePass4227.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step7: Click On Enroll Health on Benefits Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step8: clickAvailableHealthPlans in HealthBenefitsPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: HealthBenefitsPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4237.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4237.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step9: clickContinueHealthPlans in HealthBenefitsPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: HealthBenefitsPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4243.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4243.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step10: clickContinueCoverHealthPlans in HealthBenefitsPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: HealthBenefitsPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4249.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4249.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step11: Click On waive Dental on Benefits Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Dental Waived Verification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Dental Waived VerificationPass4303.png target='blank'> <img src=test-output\Screenshots\Dental Waived VerificationPass4303.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step12: Click On waive Vision on Benefits Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Vision Waived Verification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Vision Waived VerificationPass4314.png target='blank'> <img src=test-output\Screenshots\Vision Waived VerificationPass4314.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step13: Click On saveAndContinue on Benefits Portfolio Page]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: PrimaryCarePhysicianPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\PrimaryCarePhysicianPagePass4325.png target='blank'> <img src=test-output\Screenshots\PrimaryCarePhysicianPagePass4325.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: MoreThanBenefitPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\MoreThanBenefitPagePass4332.png target='blank'> <img src=test-output\Screenshots\MoreThanBenefitPagePass4332.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: MemberOfYourFamilyPregnantPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4342.png target='blank'> <img src=test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4342.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: StressAffectingPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\StressAffectingPagePass4349.png target='blank'> <img src=test-output\Screenshots\StressAffectingPagePass4349.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: MemberOfYourFamilyPregnantPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4354.png target='blank'> <img src=test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4354.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: HealthBeginPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\HealthBeginPagePass4400.png target='blank'> <img src=test-output\Screenshots\HealthBeginPagePass4400.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step14: Click on button on We are almost there Page]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: wearealmosttherPageSaveVerification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\wearealmosttherPageSaveVerificationPass4408.png target='blank'> <img src=test-output\Screenshots\wearealmosttherPageSaveVerificationPass4408.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Parameter: phone no-666-666-6666]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step15: Click On Phone type on contactPhoneNumberPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step16: click Continue on contactPhoneNumberPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: contactPhoneNumberSaveVerification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\contactPhoneNumberSaveVerificationPass4427.png target='blank'> <img src=test-output\Screenshots\contactPhoneNumberSaveVerificationPass4427.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step17: click Continue on yourContactInfoPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: YourContactInfoPageSaveVerification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\YourContactInfoPageSaveVerificationPass4433.png target='blank'> <img src=test-output\Screenshots\YourContactInfoPageSaveVerificationPass4433.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step18: click Going Paperless link on GoingPaperlessPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: GoingPaperlessPageSaveVerification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\GoingPaperlessPageSaveVerificationPass4440.png target='blank'> <img src=test-output\Screenshots\GoingPaperlessPageSaveVerificationPass4440.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step19: click clickCheckout on CheckoutPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step20: click Check Box on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step21: click Complete Enrollment on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: completeEnrolVerifiction :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\completeEnrolVerifictionPass4452.png target='blank'> <img src=test-output\Screenshots\completeEnrolVerifictionPass4452.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step22: Click exit]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step23: VerifyPendingLink on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: VerifyPendingLink :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\VerifyPendingLinkPass4506.png target='blank'> <img src=test-output\Screenshots\VerifyPendingLinkPass4506.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step24: click Pending Link on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step25: click Employee Name Link on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Element found and performing next actions required ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: PendingEventPageVerification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\PendingEventPageVerificationPass4519.png target='blank'> <img src=test-output\Screenshots\PendingEventPageVerificationPass4519.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step26: click Reject on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: RejectingEnrollmentPage :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\RejectingEnrollmentPagePass4550.png target='blank'> <img src=test-output\Screenshots\RejectingEnrollmentPagePass4550.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Step2RejectMessageVerification :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Step2RejectMessageVerificationPass4551.png target='blank'> <img src=test-output\Screenshots\Step2RejectMessageVerificationPass4551.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step27: click Submit on ReviewandAcceptPage ]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step28: Enrollment closed screen]]>
+            </line>
+            <line>
+              <![CDATA[<br>Button View My Button - Enrollment Reject is successfull]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: Enrollment Rejected-ViewMyBenefits button is not displayed :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\Enrollment Rejected-ViewMyBenefits button is not displayedPass5126.png target='blank'> <img src=test-output\Screenshots\Enrollment Rejected-ViewMyBenefits button is not displayedPass5126.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step29: Click exit]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step30: logOut ]]>
+            </line>
+            <line>
+              <![CDATA[<br> Step Result: LogoutCompleted :Passed]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a href=file:test-output\Screenshots\LogoutCompletedPass5213.png target='blank'> <img src=test-output\Screenshots\LogoutCompletedPass5213.png target='blank' height='300' width='500' /> </a></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.UAT.RallyChoice.Automation.Utilities.CucumberRunner@3c0ecd4b]" name="tearDownClass" is-config="true" duration-ms="475" started-at="2018-08-29T22:52:18Z" finished-at="2018-08-29T22:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.UAT.RallyChoice.Automation.Utilities.CucumberRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

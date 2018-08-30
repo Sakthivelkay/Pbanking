@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 29 22:39:57 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>740 seconds (740778 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.UAT.RallyChoice.Automation.Utilities.CucumberRunner.feature()'><b>feature</b><br>Test class: com.UAT.RallyChoice.Automation.Utilities.CucumberRunner<br>Test method: Runs Cucumber Feature<br>Parameters: RallyChoice Scenarios<br/>
+<a href="#Output-920446957" onClick='toggleBox("Output-920446957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920446957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920446957">
+<br>Step1: Login to RallyChoice Application<br/>
+<br>Step2: Enter Employers Name<br/>
+<br>Parameter: Employer Name-New Hire Testing Customer 05<br/>
+<br>Step3: navigate To Employee Detail Page<br/>
+<br>Step4: select check box<br/>
+<br>Parameter: Employee Name-CFQGGR<br/>
+<br>Parameter: Employee City Name -Chicago<br/>
+<br>Parameter: Employee Zip Code -60606<br/>
+<br>Parameter: Employee State-IL<br/>
+<br>Parameter: Class Type-Non-Union<br/>
+<br>Step5: Click on complete button<br/>
+<br> Step Result: Employee Add Success Validation :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Employee Add Success ValidationPass4058.png target='blank'> <img src=test-output\Screenshots\Employee Add Success ValidationPass4058.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Parameter: Enter the Employer name-CFQGGR<br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: Enrollment Is Open Page Navigation :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Enrollment Is Open Page NavigationPass4129.png target='blank'> <img src=test-output\Screenshots\Enrollment Is Open Page NavigationPass4129.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: ReviewYourInfo Page Navigation :Passed<br/>
+<br> <a href=file:test-output\Screenshots\ReviewYourInfo Page NavigationPass4136.png target='blank'> <img src=test-output\Screenshots\ReviewYourInfo Page NavigationPass4136.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: DoYouHaveDependentsPage Navigation :Passed<br/>
+<br> <a href=file:test-output\Screenshots\DoYouHaveDependentsPage NavigationPass4144.png target='blank'> <img src=test-output\Screenshots\DoYouHaveDependentsPage NavigationPass4144.png target='blank' height='300' width='500' /> </a></br><br/>
+<br> Step Result: Dependant Details :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Dependant DetailsPass4146.png target='blank'> <img src=test-output\Screenshots\Dependant DetailsPass4146.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step6: Enter Dependent Details<br/>
+<br>Parameter: Dependent FirstName-Sandy<br/>
+<br>Parameter: Dependent LastName-Joe<br/>
+<br>Parameter: SSN_TIN-6663455432<br/>
+<br>Parameter: Dependent DOB-05061995<br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: YourFamilyPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\YourFamilyPagePass4217.png target='blank'> <img src=test-output\Screenshots\YourFamilyPagePass4217.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: YouareWellOnyourWayPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\YouareWellOnyourWayPagePass4227.png target='blank'> <img src=test-output\Screenshots\YouareWellOnyourWayPagePass4227.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step7: Click On Enroll Health on Benefits Portfolio Page<br/>
+<br>Step8: clickAvailableHealthPlans in HealthBenefitsPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: HealthBenefitsPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4237.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4237.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step9: clickContinueHealthPlans in HealthBenefitsPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: HealthBenefitsPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4243.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4243.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step10: clickContinueCoverHealthPlans in HealthBenefitsPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: HealthBenefitsPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\HealthBenefitsPagePass4249.png target='blank'> <img src=test-output\Screenshots\HealthBenefitsPagePass4249.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step11: Click On waive Dental on Benefits Portfolio Page<br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: Dental Waived Verification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Dental Waived VerificationPass4303.png target='blank'> <img src=test-output\Screenshots\Dental Waived VerificationPass4303.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step12: Click On waive Vision on Benefits Portfolio Page<br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: Vision Waived Verification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Vision Waived VerificationPass4314.png target='blank'> <img src=test-output\Screenshots\Vision Waived VerificationPass4314.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step13: Click On saveAndContinue on Benefits Portfolio Page<br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: PrimaryCarePhysicianPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\PrimaryCarePhysicianPagePass4325.png target='blank'> <img src=test-output\Screenshots\PrimaryCarePhysicianPagePass4325.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: MoreThanBenefitPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\MoreThanBenefitPagePass4332.png target='blank'> <img src=test-output\Screenshots\MoreThanBenefitPagePass4332.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: MemberOfYourFamilyPregnantPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4342.png target='blank'> <img src=test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4342.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: StressAffectingPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\StressAffectingPagePass4349.png target='blank'> <img src=test-output\Screenshots\StressAffectingPagePass4349.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: MemberOfYourFamilyPregnantPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4354.png target='blank'> <img src=test-output\Screenshots\MemberOfYourFamilyPregnantPagePass4354.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: HealthBeginPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\HealthBeginPagePass4400.png target='blank'> <img src=test-output\Screenshots\HealthBeginPagePass4400.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step14: Click on button on We are almost there Page<br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: wearealmosttherPageSaveVerification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\wearealmosttherPageSaveVerificationPass4408.png target='blank'> <img src=test-output\Screenshots\wearealmosttherPageSaveVerificationPass4408.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Parameter: phone no-666-666-6666<br/>
+<br>Step15: Click On Phone type on contactPhoneNumberPage <br/>
+<br>Step16: click Continue on contactPhoneNumberPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: contactPhoneNumberSaveVerification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\contactPhoneNumberSaveVerificationPass4427.png target='blank'> <img src=test-output\Screenshots\contactPhoneNumberSaveVerificationPass4427.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step17: click Continue on yourContactInfoPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: YourContactInfoPageSaveVerification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\YourContactInfoPageSaveVerificationPass4433.png target='blank'> <img src=test-output\Screenshots\YourContactInfoPageSaveVerificationPass4433.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step18: click Going Paperless link on GoingPaperlessPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: GoingPaperlessPageSaveVerification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\GoingPaperlessPageSaveVerificationPass4440.png target='blank'> <img src=test-output\Screenshots\GoingPaperlessPageSaveVerificationPass4440.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step19: click clickCheckout on CheckoutPage <br/>
+<br>Step20: click Check Box on ReviewandAcceptPage <br/>
+<br>Step21: click Complete Enrollment on ReviewandAcceptPage <br/>
+<br> Step Result: completeEnrolVerifiction :Passed<br/>
+<br> <a href=file:test-output\Screenshots\completeEnrolVerifictionPass4452.png target='blank'> <img src=test-output\Screenshots\completeEnrolVerifictionPass4452.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step22: Click exit<br/>
+<br>Step23: VerifyPendingLink on ReviewandAcceptPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: VerifyPendingLink :Passed<br/>
+<br> <a href=file:test-output\Screenshots\VerifyPendingLinkPass4506.png target='blank'> <img src=test-output\Screenshots\VerifyPendingLinkPass4506.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step24: click Pending Link on ReviewandAcceptPage <br/>
+<br>Step25: click Employee Name Link on ReviewandAcceptPage <br/>
+<br>Element found and performing next actions required <br/>
+<br> Step Result: PendingEventPageVerification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\PendingEventPageVerificationPass4519.png target='blank'> <img src=test-output\Screenshots\PendingEventPageVerificationPass4519.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step26: click Reject on ReviewandAcceptPage <br/>
+<br> Step Result: RejectingEnrollmentPage :Passed<br/>
+<br> <a href=file:test-output\Screenshots\RejectingEnrollmentPagePass4550.png target='blank'> <img src=test-output\Screenshots\RejectingEnrollmentPagePass4550.png target='blank' height='300' width='500' /> </a></br><br/>
+<br> Step Result: Step2RejectMessageVerification :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Step2RejectMessageVerificationPass4551.png target='blank'> <img src=test-output\Screenshots\Step2RejectMessageVerificationPass4551.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step27: click Submit on ReviewandAcceptPage <br/>
+<br>Step28: Enrollment closed screen<br/>
+<br>Button View My Button - Enrollment Reject is successfull<br/>
+<br> Step Result: Enrollment Rejected-ViewMyBenefits button is not displayed :Passed<br/>
+<br> <a href=file:test-output\Screenshots\Enrollment Rejected-ViewMyBenefits button is not displayedPass5126.png target='blank'> <img src=test-output\Screenshots\Enrollment Rejected-ViewMyBenefits button is not displayedPass5126.png target='blank' height='300' width='500' /> </a></br><br/>
+<br>Step29: Click exit<br/>
+<br>Step30: logOut <br/>
+<br> Step Result: LogoutCompleted :Passed<br/>
+<br> <a href=file:test-output\Screenshots\LogoutCompletedPass5213.png target='blank'> <img src=test-output\Screenshots\LogoutCompletedPass5213.png target='blank' height='300' width='500' /> </a></br><br/>
+</div>
+</td>
+<td></td>
+<td>739</td>
+<td>com.UAT.RallyChoice.Automation.Utilities.CucumberRunner@3c0ecd4b</td></tr>
+</table><p>
+</body>
+</html>

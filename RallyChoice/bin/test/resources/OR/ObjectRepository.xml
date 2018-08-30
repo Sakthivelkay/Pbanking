@@ -1,0 +1,163 @@
+<OR>
+<LoginPage>
+	<userName locatorName="XPath">//*[@class='dataGroup']//*[@type='text']</userName>
+	<passWord locatorName="XPath">//*[@type='password']</passWord>
+	<submit locatorName="XPath">//*[@value='Login']</submit>
+	<activities locatorName="XPath">.//*[@id='activities']</activities>
+</LoginPage>
+
+<RDE_DashBoardPage>
+	<activities_Menu locatorName="CSSSELECTOR">#activities</activities_Menu>
+	<createRDEQuote_Link locatorName="CSSSELECTOR">#sgRde</createRDEQuote_Link>
+	<searchRDEQuote_Link locatorName="CSSSELECTOR">#sgRdeSearch</searchRDEQuote_Link>
+	<rdeGroupNameSearch_TXTBox locatorName="CSSSELECTOR">input[id='group.name_RDE Group Name']</rdeGroupNameSearch_TXTBox>
+	<rdeSearch_Btn locatorName="CSSSELECTOR">#app > div > div > div > div > form > div > div:nth-child(3) > button</rdeSearch_Btn>
+	<logout_Img locatorName="CSSSELECTOR">#tHeader > div > div > div.welcomeText > span > img</logout_Img>
+	<logout_Link locatorName="linkText">Log Out</logout_Link>
+	<medicalPlan_Cbox locatorName="CSSSELECTOR">#quote\2e hasMedical_Medical</medicalPlan_Cbox>
+	<returningUserLogin_Link locatorName="XPATH">//*[@id="rLogin"]</returningUserLogin_Link>
+	<welComeMenu_Link locatorName="XPATH">//*[text()='Welcome']</welComeMenu_Link>
+	<dashboard_Link locatorName="XPATH">//*[text()='Dashboard']</dashboard_Link>
+</RDE_DashBoardPage>
+
+<RDE_ProductandPlanInformationPage>
+ <medicalPlan_Cbox locatorName="CSSSELECTOR">#quote\2e hasMedical_Medical</medicalPlan_Cbox>
+ <med_MultiChoicePkg_TBox locatorName="CSSSELECTOR">input[name='quote.medicalPlans.multiChoicePackageCode']</med_MultiChoicePkg_TBox>
+ <med_MultiChoicePkgPlan_PlusBtn locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > form > div:nth-child(1) > div:nth-child(2) > div > div.component--repeatable > button</med_MultiChoicePkgPlan_PlusBtn>
+ <med_MultiChoicePlanCode_TBox locatorName="CSSSELECTOR">input[name='quote.medicalPlans.packagePlans[0].medicalPlanCode']</med_MultiChoicePlanCode_TBox>
+ <med_MultiChoicerxPlanCode_TBox locatorName="CSSSELECTOR">input[name='quote.medicalPlans.packagePlans[0].rxPlanCode']</med_MultiChoicerxPlanCode_TBox>
+ <med_MultiChoiceMetalicLevel_List locatorName="CSSSELECTOR">select[id='quote.medicalPlans.packagePlans[0].metalTier']</med_MultiChoiceMetalicLevel_List>
+ <med_SingleChoicePkgPlan_PlusBtn locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > form > div:nth-child(1) > div:nth-child(3) > div > div > button</med_SingleChoicePkgPlan_PlusBtn>
+ <med_SingleChoicePlanCode_TBox locatorName="CSSSELECTOR">input[id='quote.medicalPlans.standalonePlans[0].medicalPlanCode_Plan Code']</med_SingleChoicePlanCode_TBox>
+ <med_SingleChoicerxPlanCode_TBox locatorName="CSSSELECTOR">input[id='quote.medicalPlans.standalonePlans[0].rxPlanCode_Rx Plan Code']</med_SingleChoicerxPlanCode_TBox>
+ <med_SingleChoiceMetalicLevel_List locatorName="CSSSELECTOR">select[id='quote.medicalPlans.standalonePlans[0].metalTier']</med_SingleChoiceMetalicLevel_List>
+ <billType_TBox locatorName="CSSSELECTOR">input[id='quote.medicalPlans.billType_Bill Type']</billType_TBox>
+ <dentalPlan_Cbox locatorName="CSSSELECTOR">#quote\2e hasDental_Dental</dentalPlan_Cbox>
+ <dentalPlan_PlusBtn locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > form > div:nth-child(3) > div.row.component--row > div > div > button</dentalPlan_PlusBtn>
+ <dental_PlanCode_TBox locatorName="CSSSELECTOR">input[id='quote.dentalPlans[0].planCode_Plan Code(s)']</dental_PlanCode_TBox>
+ <visionPlan_Cbox locatorName="CSSSELECTOR">#quote\2e hasVision_Vision</visionPlan_Cbox>
+ <vision_PlanCode_TBox locatorName="CSSSELECTOR">#quote\2e visionPlans\2e planCode_Plan\20 Code\28 s\29</vision_PlanCode_TBox>
+ <life_DisabilityProducts_Rbtns locatorName="CSSSELECTOR">input[name='quote.offerLifeDisableProductsClasses']</life_DisabilityProducts_Rbtns> 
+ <basicLifeAndAD_Cbox locatorName="XPATH">//*[starts-with(@id,'quote.hasBasicLifeAdd_Basic Life')]</basicLifeAndAD_Cbox>
+ <formula_List locatorName="CSSSELECTOR">#quote\2e basicLifeAddPlan\2e formula_Formula</formula_List>
+ <formula_ListArrowBtn locatorName="CSSSELECTOR">#autocompletedrop > i</formula_ListArrowBtn>
+ <formulaFlat_Link locatorName="linkText">Flat</formulaFlat_Link>
+ <formulaOccupational_Link locatorName="linkText">Occupational</formulaOccupational_Link>
+ <formulaSalary_Link locatorName="linkText">Salary</formulaSalary_Link>
+ <formula_flatAmount_TxtBox locatorName="CSSSELECTOR">#quote\2e basicLifeAddPlan\2e flatAmount_Amount</formula_flatAmount_TxtBox>
+ <formula_Occupational_TxtBox locatorName="CSSSELECTOR">#quote\2e basicLifeAddPlan\2e planCode_Plan\20 Code\28 s\29</formula_Occupational_TxtBox>
+ <formula_Salary_List locatorName="CSSSELECTOR">#quote\2e basicLifeAddPlan\2e salaryFactor</formula_Salary_List>
+ <planCode_DependentBasicLife_TxtBox locatorName="CSSSELECTOR">#quote\2e depLifePlan\2e planCode_Plan\20 Code\28 s\29</planCode_DependentBasicLife_TxtBox>
+ <supplementalLifeAndAD_Cbox locatorName="XPATH">//*[starts-with(@id,'quote.hasSupplementalLifeAdd_Supplemental Life')]</supplementalLifeAndAD_Cbox>
+ <supplementalLifePlanCode_TxtBox locatorName="CSSSELECTOR">#quote\2e supplementalLifeAddPlan\2e planCode_Plan\20 Code\28 s\29</supplementalLifePlanCode_TxtBox>
+ <planCode_DependentSupplementalLife_Spouse_TxtBox locatorName="CSSSELECTOR">#quote\2e suppDepSpousePlan\2e planCode_Plan\20 Code\28 s\29</planCode_DependentSupplementalLife_Spouse_TxtBox>
+ <planCode_DependentSupplementalLife_Child_TxtBox locatorName="CSSSELECTOR">#quote\2e suppDepChildPlan\2e planCode_Plan\20 code\28 s\29</planCode_DependentSupplementalLife_Child_TxtBox>
+ <shortTermDisability_Cbox locatorName="CSSSELECTOR">input[id='quote.hasStd_Short Term Disability']</shortTermDisability_Cbox>
+ <planCode_ShortTermDisability_TxtBox locatorName="CSSSELECTOR">#quote\2e stdPlan\2e planCode_Plan\20 Code\28 s\29</planCode_ShortTermDisability_TxtBox>
+ <longTermDisability_Cbox locatorName="CSSSELECTOR">#quote\2e hasLtd_Long\20 Term\20 Disability</longTermDisability_Cbox>
+ <planCode_LongTermDisability_TxtBox locatorName="CSSSELECTOR">#quote\2e ltdPlan\2e planCode_Plan\20 Code\28 s\29</planCode_LongTermDisability_TxtBox>
+ <continue_Btn locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > form > div:nth-child(15) > div:nth-child(2) > button</continue_Btn>
+</RDE_ProductandPlanInformationPage>
+
+<RDE_CompanyProfilePage>
+  <RequestiveEffectiveDate_TxtBox locatorName="CSSSELECTOR">input[id='quote.requestedEffectiveDate_Requested Effective Date']</RequestiveEffectiveDate_TxtBox>
+  <groupsLegalName_TxtBox locatorName="CSSSELECTOR">input[name='group.name']</groupsLegalName_TxtBox>
+  <groupsNameToappearonIDCard_TxtBox locatorName="CSSSELECTOR">input[name='group.nameOnCard']</groupsNameToappearonIDCard_TxtBox>
+  <taxID_TxtBox locatorName="CSSSELECTOR">input[name='group.taxId']</taxID_TxtBox>
+  <streetAddress_TxtBox locatorName="CSSSELECTOR">input[id='group.mailingAddress.addressLine1_Street Address']</streetAddress_TxtBox>
+  <city_TxtBox locatorName="CSSSELECTOR">input[id='group.mailingAddress.city_City']</city_TxtBox>
+  <zipCode_TxtBox locatorName="CSSSELECTOR">input[id='group.mailingAddress.zipCodeDetails_ZIP Code']</zipCode_TxtBox>
+  <zipCode_Suggest locatorName="CSSSELECTOR">a[class='autocompleteClickable']</zipCode_Suggest>
+  <firstName_TxtBox locatorName="CSSSELECTOR">#group\2e contactFirstName_Contact\20 Person\20 -\20 First\20 Name</firstName_TxtBox>
+  <lastName_TxtBox locatorName="CSSSELECTOR">#group\2e contactLastName_Contact\20 Person\20 -\20 Last\20 Name</lastName_TxtBox>
+  <telephone_TxtBox locatorName="CSSSELECTOR">#group\2e contactPhone_Telephone</telephone_TxtBox>
+  <yearsinBusiness_TxtBox locatorName="CSSSELECTOR">#group\2e yearsInBusiness_\23 \20 of\20 years\20 in\20 business</yearsinBusiness_TxtBox>
+  <billingAddressSameAsthePrimary_RadBtns locatorName="CSSSELECTOR">input[name='group.hasBillingAddress']</billingAddressSameAsthePrimary_RadBtns>
+  <wouldYouLikeEBilling_RadBtns locatorName="CSSSELECTOR">input[name='group.isEBilling']</wouldYouLikeEBilling_RadBtns>
+  <organizationType_List locatorName="CSSSELECTOR">#group\2e organizationType</organizationType_List>
+  <medicalBenefitPlanOption_RadBtns locatorName="CSSSELECTOR">input[name='group.medBenefitPlanOption']</medicalBenefitPlanOption_RadBtns>
+  <domesticPartnerCoverage_RadBtns locatorName="CSSSELECTOR">input[name='group.isDomesticPartner']</domesticPartnerCoverage_RadBtns>
+  <doYOuHaveAnyEmployees_RadBtns locatorName="CSSSELECTOR">input[name='group.otherEmployees']</doYOuHaveAnyEmployees_RadBtns>
+  <medicalDentalVisionBasicLife_List locatorName="CSSSELECTOR">#group\2e waitingPeriodTypeNonSupplemental</medicalDentalVisionBasicLife_List>
+  <waitingPeriodforInitialEnrolees_RadBtns locatorName="CSSSELECTOR">input[name='group.waitingPeriodWaivedForInitial']</waitingPeriodforInitialEnrolees_RadBtns>
+  <waitingPeriodforInitialEnroleeswaived_RadBtns locatorName="CSSSELECTOR">input[name='group.waitingPeriodWaivedForInitialSpecificStates']</waitingPeriodforInitialEnroleeswaived_RadBtns>
+  <areClassesExcluded_RadBtns locatorName="CSSSELECTOR">input[name='group.classesExcluded']</areClassesExcluded_RadBtns>
+  <sICCOde_TxtBox locatorName="CSSSELECTOR">#group\2e sicDetails_SIC\20 Code</sICCOde_TxtBox>
+  <doYouHaveWorkersCompCoverage_RadBtns locatorName="CSSSELECTOR">input[name='group.workersComp']</doYouHaveWorkersCompCoverage_RadBtns>
+  <totalEligibleEmployees_TxtBox locatorName="CSSSELECTOR">input[id='group.totalEligible_Total Eligible Employees']</totalEligibleEmployees_TxtBox>
+  <fullTimeEquivalents_TxtBox locatorName="CSSSELECTOR">#group\2e fte_Full\20 Time\20 Equivalents</fullTimeEquivalents_TxtBox>
+  <totalEligibleEmpActiveCobra_TxtBox locatorName="CSSSELECTOR">#group\2e totalApplying_Total\20 Employees\20 Applying\20 \28 Active\20 and\20 COBRA\29</totalEligibleEmpActiveCobra_TxtBox>
+  <avgTotalNoOfEmployees_TxtBox locatorName="CSSSELECTOR">#group\2e atne_Average\20 Total\20 Number\20 of\20 Employees</avgTotalNoOfEmployees_TxtBox>
+  <totalEmployeesApplying_TxtBox locatorName="CSSSELECTOR">input[id='group.totalApplying_Total Employees Applying (Active and COBRA)']</totalEmployeesApplying_TxtBox>
+  <waivingAllCoverage_TxtBox locatorName="CSSSELECTOR">input[id='group.totalWaivers_# Waiving All Coverage']</waivingAllCoverage_TxtBox>
+  <noOfHoursPerWeekToBeEligible_TxtBox locatorName="XPATH">//*[@id="group.numberOfHoursPerWeek_Number of hours per week to be eligible"]</noOfHoursPerWeekToBeEligible_TxtBox>
+  <continue_Btn locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > form > div:nth-child(29) > div.component--col.col-md-2.col-md-offset-6 > button</continue_Btn>
+  <recipientName_TxtBox locatorName="CSSSELECTOR">input[id='group.recipientName_Recipient Name']</recipientName_TxtBox>
+  <recipientEmail_TxtBox locatorName="CSSSELECTOR">input[id='group.recipientEmail_Recipient Email']</recipientEmail_TxtBox>
+  <search_Btn locatorName="XPATH">//*[@id="app"]/div/div/div/div/div/div/div/form/div[1]/div/div/div[2]/fieldset/button</search_Btn>
+  <state_TxtBox locatorName="CSSSELECTOR">#state_State</state_TxtBox>
+  <search_OwnerAssignment_Btn locatorName="XPATH">//*[@id="app"]/div/div/div/div/div/div/div/div/div/form/div[2]/div/div/div/div[2]/button</search_OwnerAssignment_Btn>
+  <select_Link_OwnerAssignment locatorName="XPATH">//table[@class='results table']//tr[1]//td[6]//a</select_Link_OwnerAssignment>
+  <supLife_TxtBox locatorName="CSSSELECTOR">#group\2e waitingPeriodTypeSupplemental_undefined</supLife_TxtBox>
+  <supLife_period_Link locatorName="linkText">Date of Hire (no waiting period)</supLife_period_Link>
+  <basicLifePer_TxtBox locatorName="CSSSELECTOR">#group\2e lifeContributionPercent_Life\20 Contributions\20 Percentage</basicLifePer_TxtBox>
+</RDE_CompanyProfilePage>
+
+<RDE_GeneralInformationQuestionsPage>
+	<subjectToErisa_RadBtns locatorName="CSSSELECTOR">Input[name='quote.subjectToErisa']</subjectToErisa_RadBtns>
+	<healthSavingsAccount_Radbtns locatorName="CSSSELECTOR">Input[name='quote.hsaBank']</healthSavingsAccount_Radbtns>
+	<doYouContinueMEdicalCoverage_ListBox locatorName="CSSSELECTOR">select[name='quote.continueMedicalCoverage']</doYouContinueMEdicalCoverage_ListBox>
+	<continuationStatus_RadBtn locatorName="XPATH">//*[@type='radio' and @name='quote.continuationStatus1']</continuationStatus_RadBtn>
+	<avgTotalNoOfEmployees_TxtBox locatorName="CSSSELECTOR">Input[id='quote.priorAtne_Enter the Prior Calendar Year Average Total Number of Employees']</avgTotalNoOfEmployees_TxtBox>
+	<fulltimeequivalentTotalNoOfEmployees_TxtBox locatorName="CSSSELECTOR">Input[id='quote.priorFte_Enter the Prior Calendar Year Full Time Equivalent Total Number of Employees']</fulltimeequivalentTotalNoOfEmployees_TxtBox>
+	<doyoucurrentlyutilizetheservice_RadBtn locatorName="CSSSELECTOR">Input[name='quote.hasPeoElc']</doyoucurrentlyutilizetheservice_RadBtn>
+	<isyourgroupaprofessionalemployerOrg_RadBtn locatorName="CSSSELECTOR">Input[name='quote.isPeoElc']</isyourgroupaprofessionalemployerOrg_RadBtn>
+	<peoattestation_Received_ChkBox locatorName="CSSSELECTOR">Input[id='quote.isPeoElcReceived_Received']</peoattestation_Received_ChkBox>
+	<peoattestation_Validated_ChkBox locatorName="CSSSELECTOR">Input[id='quote.isPeoElcValidated_Validated']</peoattestation_Validated_ChkBox>
+	<doesyourgroupsponsoraplan_RadBtn locatorName="CSSSELECTOR">Input[name='quote.hasSponsorGroupPlan']</doesyourgroupsponsoraplan_RadBtn>
+	<doesthegrouphaveMedicalCoverage_RadBtn locatorName="CSSSELECTOR">Input[name='quote.hasPriorMedicalCoverage']</doesthegrouphaveMedicalCoverage_RadBtn>
+	<doesthegrouphaveDentalCoverage_RadBtn locatorName="CSSSELECTOR">Input[name='quote.priorDentalCoverage']</doesthegrouphaveDentalCoverage_RadBtn>
+	<sponsorPlanThatCoversEmployees_RadBtn locatorName="CSSSELECTOR">Input[name='quote.hasSponsorGroupPlan']</sponsorPlanThatCoversEmployees_RadBtn>
+	<wageandTaxForms_Received_ChkBox locatorName="CSSSELECTOR">Input[id='quote.wageTaxReceived_Received']</wageandTaxForms_Received_ChkBox>
+	<wageandTaxForms_Validated_ChkBox locatorName="CSSSELECTOR">Input[id='quote.wageTaxValidated_Validated']</wageandTaxForms_Validated_ChkBox>
+	<directDebitAuthorizationForm_Received_ChkBox locatorName="CSSSELECTOR">Input[id='quote.directDebitAuthReceived_Received']</directDebitAuthorizationForm_Received_ChkBox>
+	<directDebitAuthorizationForm_Validated_ChkBox locatorName="CSSSELECTOR">Input[id='quote.directDebitAuthValidated_Validated']</directDebitAuthorizationForm_Validated_ChkBox>
+	<binderCheck_Received_ChkBox locatorName="CSSSELECTOR">Input[id='quote.binderCheckReceived_Received']</binderCheck_Received_ChkBox>
+	<binderCheck_Validated_ChkBox locatorName="CSSSELECTOR">Input[id='quote.binderCheckValidated_Validated']</binderCheck_Validated_ChkBox>
+	<religiousexemptionform_Received_ChkBox locatorName="CSSSELECTOR">Input[id='quote.religiousExemptReceived_Received']</religiousexemptionform_Received_ChkBox>
+	<religiousexemptionform_Validated_ChkBox locatorName="CSSSELECTOR">Input[id='quote.religiousExemptValidated_Validated']</religiousexemptionform_Validated_ChkBox>
+	<btn_Continue_GeneralInfoQuestionsPage locatorName="XPath">//*[@id="app"]/div/div/div/div/div/div/div/form/div[26]/div[3]/button/span</btn_Continue_GeneralInfoQuestionsPage>
+	<staffModelHMOPlan_RadBtn locatorName="CSSSELECTOR">Input[name='quote.staffModelHmoPlan']</staffModelHMOPlan_RadBtn>
+	<whichPrimaryOptionDoYouHave_RadBtn locatorName="CSSSELECTOR">#quote\2e primaryOption_MedicarePrimary</whichPrimaryOptionDoYouHave_RadBtn>
+	<continuationStatus_RadBtnCOBRA locatorName="CSSSELECTOR">input[id='quote.continuationStatus2_COBRA']</continuationStatus_RadBtnCOBRA>
+</RDE_GeneralInformationQuestionsPage>
+
+
+<RDE_EmployeeListPage>
+	<importEmpTemplate_Link locatorName="XPATH">//*[@id="app"]/div/div/div/div/div/div/div/form/div[2]/div[1]/button</importEmpTemplate_Link>
+	<importEmpTemplate_LabelOnPOPUP locatorName="XPATH">//*[@class='input-group__btn']</importEmpTemplate_LabelOnPOPUP>
+	<chooseFile_BtnOnPOPUP locatorName="CSSSELECTOR">input[accept='application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet']</chooseFile_BtnOnPOPUP>
+	<importEmpTemplate_BtnOnPOPUP locatorName="XPATH">//button[text()='Import template']</importEmpTemplate_BtnOnPOPUP>
+	<uploaded_BtnOnPOPUP locatorName="XPATH">//*[text()='Uploaded']</uploaded_BtnOnPOPUP>
+    <close_BtnOnPOPUP locatorName="CSSSELECTOR">[class='modal__footer component--modal-footer']>button</close_BtnOnPOPUP>
+    <empAdded_Table locatorName="XPATH">//*[@class='table ']//tr</empAdded_Table>
+    <btn_Continue_EmployeeListPage locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > div.component--form-row.form-row.component--form > div > div:nth-child(5) > button</btn_Continue_EmployeeListPage>
+</RDE_EmployeeListPage>
+
+<RDE_PendingManagerPage>
+  <rateValidation_Btn  locatorName="XPATH">//*[text()='Rate Validation ']</rateValidation_Btn >
+  <confirmRates_Btn  locatorName="XPATH">//*[text()='Confirm Rates ']</confirmRates_Btn>
+   <noPendItemsFound_LabelText  locatorName="XPATH">//*[text()='No Pend Items Found']</noPendItemsFound_LabelText >
+</RDE_PendingManagerPage>
+
+<RDE_PendingInstallationPage>
+  <submit_Btn  locatorName="XPATH">//*[@id="app"]/div/div/div/div/div/div/div/div/div[2]/button</submit_Btn> 
+  <pendingInstallation_SuccessText  locatorName="CSSSELECTOR">#app > div > div > div > div > div > div > div > form > div > div.component--col.col-md-12 > p</pendingInstallation_SuccessText>
+</RDE_PendingInstallationPage>
+
+<RDE_RateValidationPage>
+  <Btn_ConfirmRates  locatorName="XPath">//*[@id="app"]/div/div/div/div/div/div/div/form/div[2]/div[1]/div[4]/button</Btn_ConfirmRates >
+  <submit_Btn  locatorName="XPATH">//*[@id="app"]/div/div/div/div/div/div/div/div/div[2]/button</submit_Btn>
+</RDE_RateValidationPage>
+
+</OR>

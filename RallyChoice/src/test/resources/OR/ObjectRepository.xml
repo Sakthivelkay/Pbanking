@@ -1,0 +1,387 @@
+<OR>
+    <LoginPage>
+        <link_Login locatorName="CSSSELECTOR">#unAuthGroup > div > button</link_Login>
+        <txt_UserName locatorName="CSSSELECTOR">input[name='loginEmail']</txt_UserName>
+        <txt_PassWord locatorName="CSSSELECTOR">#loginPassword</txt_PassWord>
+        <btn_submit locatorName="CSSSELECTOR">#submitBtn</btn_submit>
+        <logo_HomePage locatorName="CSSSELECTOR">img[class='site-header-logo']</logo_HomePage>
+        <logo_ProfileIcon locatorName="CSSSELECTOR">#user-widget-icon</logo_ProfileIcon>
+        <link_logOut locatorName="CSSSELECTOR">#user-widget-actions-header>small>a</link_logOut>
+
+    </LoginPage>
+    
+    <HomePage>
+        <txt_employerSearchBox locatorName="XPATH">//input[@placeholder='Search by Name']</txt_employerSearchBox>
+        <link_Employers locatorName="XPATH">//*[contains(text(),'New Hire Testing Customer 05')]</link_Employers>
+        <link_Employers1 locatorName="XPATH">//*[contains(text(),'New Hire Testing Customer 01')]</link_Employers1>
+        <link_EmployersDynamic locatorName="XPATH">//*[@class='table table-hover']//tr//h4</link_EmployersDynamic>
+        <tab_employeeTab locatorName="XPATH">.//*[@id='secondary-nav-item-employees']</tab_employeeTab>
+        <tab_manageEmployeeTab locatorName="CSSSELECTOR">.btn.btn-lg.btn-success</tab_manageEmployeeTab>
+        <tab_addOneEmployeeTab locatorName="XPATH">.//*[contains(text(),'Add One Employee')]</tab_addOneEmployeeTab>
+    </HomePage>
+    
+     <CasesPage>
+      <link_Cases locatorName="CSSSELECTOR">#secondary-nav-item-cases</link_Cases>
+      <label_CasesText locatorName="XPATH">//*[@class='col-md-9']//span</label_CasesText>
+    </CasesPage>
+
+   <EmployeeInfoPage>
+        <txt_Name locatorName="XPATH">//input[contains(@placeholder,'First')]</txt_Name>
+        <txt_MiddleName locatorName="XPATH">//input[contains(@placeholder,'MI')]</txt_MiddleName>
+        <txt_LastName locatorName="XPATH">//input[contains(@placeholder,'Last')]</txt_LastName>
+        <txt_Desig locatorName="XPATH">//input[contains(@placeholder,'Sr., Jr., etc.')]</txt_Desig>
+        <txt_DOB locatorName="XPATH">//input[contains(@size,'10')]</txt_DOB>
+        <txt_SSN locatorName="XPATH">//input[contains(@placeholder,'XXX-XX-XXXX')]</txt_SSN>
+        <txt_GenderDropBox locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[3]/div[3]/div/div/div[1]/div[2]</txt_GenderDropBox>
+        <list_Gender locatorName="XPATH">.//*[@class='dropdown-item'][contains(text(),'Male')]</list_Gender>
+        <txt_Street locatorName="XPATH">.//*[@id='street-address-input']</txt_Street>
+        <txt_Unit locatorName="XPATH">.//*[@id='suite-input']</txt_Unit>
+        <list_City locatorName="XPATH">.//*[@id='city-input']</list_City>
+        <txt_Zip locatorName="XPATH">.//*[@id='zip-code-input']</txt_Zip>
+        <txt_StateDropBox locatorName="XPATH">.//*[@class='dropdown-item'][contains(text(),'IL')]</txt_StateDropBox>
+        <list_State locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[4]/div[1]/div/div/div/div/div[4]/div/div/div/div[1]</list_State>
+        <txt_Phone locatorName="XPATH">//input[@placeholder='(555) 555-5555']</txt_Phone>
+        <txt_Email locatorName="XPATH">//input[@placeholder='name@example.com']</txt_Email>
+        <list_CountryDropBox locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[5]/div/div/div/div[1]</list_CountryDropBox>
+        <txt_Country locatorName="XPATH">.//*[@class='dropdown-item'][contains(text(),'USA')]</txt_Country>
+        <txt_ID locatorName="XPATH">//input[@placeholder='e.g. 12345']</txt_ID>
+        <txt_DOH locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[6]/div[2]/div/div/div[2]/div/div/div/input</txt_DOH>
+        <list_PayrollDropBox locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[7]/div[1]/div/div/div[1]</list_PayrollDropBox>
+        <txt_Payroll locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[7]/div[1]/div/div/div[2]/div[2]</txt_Payroll>
+        <emp_ClassType locatorName="XPATH">.//*[contains(text(),'Non-Union')]</emp_ClassType>
+       <emp_ClassType_default locatorName="XPATH">.//*[contains(text(),'Default')]</emp_ClassType_default>
+        <emp_ClassTypeDropBox locatorName="XPATH">.//*[@id='app']/div/div/div/div/section/div/div/div[2]/div/fieldset/div/div[8]/div[1]/div/div/div[1]</emp_ClassTypeDropBox>
+        <txt_Salary locatorName="XPATH">//input[@placeholder='XX,XXX']</txt_Salary>
+        <txt_HoursPerWeek locatorName="XPATH">//input[@placeholder='e.g. 40']</txt_HoursPerWeek>
+        <txt_Division locatorName="XPATH">//input[@placeholder='e.g. Production']</txt_Division>
+        <txt_Department locatorName="XPATH">//input[@placeholder='e.g. Operations']</txt_Department>
+        <txt_Occupation locatorName="XPATH">//input[@placeholder='e.g. Analyst']</txt_Occupation>
+        <txt_Location locatorName="XPATH">//input[@placeholder='e.g. Midwest']</txt_Location>
+        <btn_Complete locatorName="XPATH">//button[contains(.,'Complete')]</btn_Complete>
+        <chk_EmployeeDetails locatorName="XPATH">//div[@class='checkbox-box']</chk_EmployeeDetails>
+        <label_EmployeeAddSuccess locatorName="XPATH">//*[@class='flash-message-text']//span</label_EmployeeAddSuccess>
+        <btn_TakeMeBack locatorName="XPATH">//button[contains(.,'Take me back')]</btn_TakeMeBack>
+         <label_OopsError locatorName="XPATH">//*[contains(text(),'There is an error on the page')]</label_OopsError>
+    </EmployeeInfoPage>
+    
+    <EmployersSearchPage>
+    <txt_SearchByName locatorName="XPATH">//input[@placeholder='Search by Name or Employee ID']</txt_SearchByName>
+    <link_Employer locatorName="XPATH">//*[@class='table table-hover']//h4</link_Employer>
+    <list_AllEmployers locatorName="XPATH">//*[@class="table table-hover"]//h4</list_AllEmployers>
+    <link_Employees locatorName="LINKTEXT">'Employees'</link_Employees>
+    <link_PendingEvent locatorName="LINKTEXT">'1 pending event'</link_PendingEvent>
+    <btn_ManageEmployees locatorName="XPATH">//*[@class='dropdown-button-container']</btn_ManageEmployees>
+    <link_AddOneEmployee locatorName="LINKTEXT">'Add One Employee'</link_AddOneEmployee>   
+	</EmployersSearchPage>
+	
+	<AvailableEnrollmentsPage>
+    <btn_Action locatorName="XPATH">//*[contains(text(),'Actions')]</btn_Action>
+    <link_ViewAsEmployee locatorName="XPATH">//*[contains(text(),'View As Employee')]</link_ViewAsEmployee>
+    <link_EnrollAsAdmin locatorName="XPATH">//*[contains(text(),'Enroll as Admin')]</link_EnrollAsAdmin>  
+	</AvailableEnrollmentsPage>
+	
+	<EnrollmentIsOpenPage>
+        <btn_GetStartedNow locatorName="XPATH">//button[@type='button' and @class='enter-enrollment-button btn btn-primary']</btn_GetStartedNow>
+        <label_EnrollmentIsOpen locatorName="XPATH">//*[@class='enrollment-status-announcement']/span</label_EnrollmentIsOpen>
+
+    </EnrollmentIsOpenPage>
+	
+	<EmployeeListPage>
+	<txt_Name locatorName="XPATH">//input[contains(@placeholder,'First')]</txt_Name>
+	<EmployeeName locatorName="XPATH">//*[@class='list-title']//h4</EmployeeName>
+    <label_YourEmployeeAddedSuccessfuly locatorName="XPATH">//*[@class='flash-message-text']//span</label_YourEmployeeAddedSuccessfuly>
+    <txt_SearchByEmployeeName locatorName="XPATH">//input[@placeholder='Search by Name or Employee ID']</txt_SearchByEmployeeName>    
+	</EmployeeListPage>
+	
+	<ReviewYourInformationPage>
+	<label_ReviewYourInfoPage locatorName="XPATH">//*[@class='site-content-header-title']//span</label_ReviewYourInfoPage>
+    <btn_LookGood locatorName="XPATH">//*[@class='btn btn-primary']</btn_LookGood>   
+	</ReviewYourInformationPage>
+
+	<DoYouHaveDependentsPage>
+	<label_DoYouHaveDependents locatorName="XPATH">//*[@class='site-content-header-title']//span</label_DoYouHaveDependents>
+    <btn_Yes locatorName="XPATH">//*[@class='choice-icon choice-icon-checkmark']</btn_Yes>
+    <btn_No locatorName="XPATH">//*[@class='choice-icon choice-icon-cancel']</btn_No>  
+	</DoYouHaveDependentsPage>
+
+	<DependentDetailsPage>
+	<label_DependentDetails locatorName="XPATH">//*[@class='site-content-header']//h1//span</label_DependentDetails>
+    <list_DependentType locatorName="XPATH">//*[@class='dropdown']//*[@class='dropdown-selection-text dropdown-selection-text-placeholder']</list_DependentType>
+    <list_DependentTypeCollection locatorName="XPATH">//*[@class='dropdown-options-container']//div</list_DependentTypeCollection>
+    <list_RelationCollection locatorName="XPATH">//*[@class='dropdown-options']//div</list_RelationCollection>
+    <txt_Dependent_FirstName locatorName="XPATH">//input[contains(@placeholder,'First')]</txt_Dependent_FirstName>
+    <txt_Dependent_LastName locatorName="XPATH">//input[contains(@placeholder,'Last')]</txt_Dependent_LastName>
+    <txt_Dependent_Spouse locatorName="XPATH">//*[@id='za3amppupr-spouse']</txt_Dependent_Spouse>
+    <txt_Dependent_Child locatorName="XPATH">//*[@id='za3amppupr-child']</txt_Dependent_Child>
+    <list_Relationship locatorName="XPATH">//*[@class='dropdown-selection disabled form-control']</list_Relationship>
+    <list_RelationshipCollection locatorName="XPATH">//*[@role='menu']//div</list_RelationshipCollection>
+    <txt_RelationShip_Husband locatorName="XPATH">//*[@id="d32gy29xohf-1"]</txt_RelationShip_Husband>
+    <txt_RelationShip_Wife locatorName="XPATH">//*[@id="d32gy29xohf-2"]</txt_RelationShip_Wife>
+    <txt_SSN_TIN locatorName="XPATH">//*[@placeholder="XXX - XX - XXXX"]</txt_SSN_TIN>
+        <list_Gender locatorName="XPATH">//*[@class='form-group']</list_Gender>
+    <list_GenderCollection locatorName="XPATH">//*[@role='menu']//div</list_GenderCollection>
+        <list_GenderItem locatorName="XPATH">//*[@aria-posinset='1']</list_GenderItem>
+    <txt_DateOfBirth locatorName="XPATH">//*[@placeholder="mm / dd / yyyy"]</txt_DateOfBirth>
+    <btn_Save locatorName="XPATH">//*[@class='btn btn-primary']</btn_Save>
+	</DependentDetailsPage>
+
+	<YourFamilyPage>
+	<label_UrFamilyText locatorName="XPATH">//*[contains(text(),'Your family')]</label_UrFamilyText> 
+    <btn_Continue locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue> 
+	</YourFamilyPage>
+	
+	<YouarewellonyourwayPage> 
+	    <label_YouareWellOnyourWayText locatorName="XPATH">//*[@class='site-content-header-title']//span</label_YouareWellOnyourWayText>
+        <btn_LetsGo locatorName="XPATH">//*[@class='btn btn-primary']</btn_LetsGo>
+        <btn_SkipAhead locatorName="XPATH">//button[contains(.,'Skip Ahead')]</btn_SkipAhead>
+	</YouarewellonyourwayPage>
+	
+	<DoYouHaveDoctorPage>
+	<label_DoYouHaveDoctorsText locatorName="XPATH">//*[contains(text(),'Do you have any doctors')]</label_DoYouHaveDoctorsText>
+    <btn_IDontHaveADoctor locatorName="XPATH">//*[@class='btn btn-default']</btn_IDontHaveADoctor> 
+	</DoYouHaveDoctorPage>
+	
+	<HowManyPrescriptionPage>
+	<label_HowManyPrescriptionText locatorName="XPATH">//*[contains(text(),'How many prescriptions')]</label_HowManyPrescriptionText>
+    <link_SkipThis locatorName="XPATH">//*[@class='btn btn-skip btn btn-link']</link_SkipThis>
+    </HowManyPrescriptionPage>
+
+    <DependentsSeekCarePage>
+	<label_HowManyTimesDependentsSeekCareText locatorName="XPATH">//*[@class='site-content-header-title']//*[contains(text(),'How many times')]</label_HowManyTimesDependentsSeekCareText>
+    <link_SkipThis locatorName="XPATH">//*[@class='btn btn-skip btn btn-link']</link_SkipThis>
+    </DependentsSeekCarePage>
+
+    <ChooseHealthPlansPage>
+        <link_Skip locatorName="XPATH">//button[contains(.,'Skip this')]</link_Skip>
+        <label_HouseHoldText locatorName="XPATH">.//*[@class='site-content-header']//span[contains(.,'What was your total household income for the previous tax year?')]</label_HouseHoldText>
+    </ChooseHealthPlansPage>
+
+    <HouseHoldIncomePage>
+        <link_SkipThis locatorName="XPATH">//button[contains(.,'Skip this')]</link_SkipThis>
+        <label_BenefitPortfolio locatorName="XPATH">//span[contains(.,'Here is your benefits portfolio')]</label_BenefitPortfolio>
+    </HouseHoldIncomePage>
+
+    <BenefitsPortfolioPage>
+        <btn_WaiveHealth locatorName="XPATH">//button[contains(.,'Waive Health')]</btn_WaiveHealth>
+        <btn_WaiveDental locatorName="XPATH">//button[contains(.,'Waive Dental')]</btn_WaiveDental>
+        <btn_WaiveVision locatorName="XPATH">//button[contains(.,'Waive Vision')]</btn_WaiveVision>
+        <btn_EnrollHealth locatorName="XPATH">//button[contains(.,'Enroll in Health')]</btn_EnrollHealth>
+        <btn_EnrollDental locatorName="XPATH">//button[contains(.,'Enroll in Dental')]</btn_EnrollDental>
+        <btn_EnrollVision locatorName="XPATH">//button[contains(.,'Enroll in Vision')]</btn_EnrollVision>
+        <btn_SaveAndContinue locatorName="XPATH">//button[contains(.,'Save and Continue')]</btn_SaveAndContinue>
+        <label_Beneficiaries locatorName="XPATH">//span[contains(.,'Select beneficiaries for your life insurance')]</label_Beneficiaries>
+        <btn_WaiveLifeInsurance locatorName="XPATH">//button[contains(.,'Waive Life Insurance')]</btn_WaiveLifeInsurance>
+        <label_HealthWaived locatorName="XPATH">//button[contains(.,'Health is  Waived')]</label_HealthWaived>
+        <label_DentalWaived locatorName="XPATH">//button[contains(.,'Dental is  Waived')]</label_DentalWaived>
+        <label_VisionWaived locatorName="XPATH">//button[contains(.,'Vision is  Waived')]</label_VisionWaived>
+        <label_LifeInsuranceWaived locatorName="XPATH">//button[contains(.,'Life Insurance is  Waived')]</label_LifeInsuranceWaived>
+        <btn_LearnMoreOrMakeChanges locatorName="XPATH">//*[@class='btn btn-default']</btn_LearnMoreOrMakeChanges>
+
+        <label_PendingCoverage locatorName="CSSSELECTOR">.notifications>div>h6</label_PendingCoverage>
+        <label_PendingNotification locatorName="CSSSELECTOR">.notifications>div>span</label_PendingNotification>
+        <btn_HealthSavingsAccount locatorName="XPATH">//button[contains(.,'Waive Health Savings Account')]</btn_HealthSavingsAccount>
+        <label_HealthSavingsAccountWaived locatorName="XPATH">//button[contains(.,'Health Savings Account is  Waived')]</label_HealthSavingsAccountWaived>
+
+    </BenefitsPortfolioPage>
+
+    <SelectBeneficiariesPage>
+        <link_Primary locatorName="XPATH">//span[contains(.,'Make Primary')]</link_Primary>
+        <link_Continue locatorName="XPATH">//button[contains(.,'Continue')]</link_Continue>
+        <label_AlmostThere locatorName="CSSSELECTOR">.site-content-header-title>span</label_AlmostThere>
+    </SelectBeneficiariesPage>
+
+
+    <WeAreAlmostTherePage>
+        <link_Continue locatorName="XPATH">//button[@type='button']</link_Continue>
+        <label_PhoneNumber locatorName="CSSSELECTOR">.site-content-header-title>span</label_PhoneNumber>
+    </WeAreAlmostTherePage>
+
+
+    <ContactPhoneNumberPage>
+        <txt_Number locatorName="XPATH">//input[@placeholder='XXX - XXX - XXXX']</txt_Number>
+        <list_Type locatorName="CSSSELECTOR">.dropdown-selection-text.dropdown-selection-text-placeholder</list_Type>
+        <label_Type locatorName="XPATH">.//*[@class='dropdown-options-container']//*[@class='dropdown-option dropdown-option-pending']</label_Type>
+        <btn_Continue locatorName="XPATH">//button[contains(.,'Continue')]</btn_Continue>
+        <label_contactInfo locatorName="CSSSELECTOR">.site-content-header-title>span</label_contactInfo>
+    </ContactPhoneNumberPage>
+
+    <YourContactInfoPage>
+        <btn_ContactInfo locatorName="XPATH">//button[@type='button']</btn_ContactInfo>
+        <label_PaperLess locatorName="CSSSELECTOR">.site-content-header-title>span</label_PaperLess>
+    </YourContactInfoPage>
+
+    <GoingPaperlessPage>
+        <btn_GoPaperless locatorName="XPATH">//button[contains(.,'Go Paperless')]</btn_GoPaperless>
+        <label_AlmostThere locatorName="CSSSELECTOR">.site-content-header-title>span</label_AlmostThere>
+    </GoingPaperlessPage>
+
+    <CheckoutPage>
+        <btn_CheckoutNow locatorName="XPATH">//button[contains(.,'Check Out Now')]</btn_CheckoutNow>
+        <Chk_Review locatorName="XPATH">//div[@class='checkable-bullet']</Chk_Review>
+        <btn_CompleteEnrolLink locatorName="XPATH">//button[contains(.,'Complete Enrollment')]</btn_CompleteEnrolLink>
+        <label_LastPage locatorName="CSSSELECTOR">.site-content-header-title>span</label_LastPage>
+        <label_completeEnrol locatorName="XPATH">.//*[text()='Your benefit elections have been submitted']</label_completeEnrol>
+        <link_Exit locatorName="XPATH">//a[contains(.,'Exit')]</link_Exit>
+         <label_AgreeMsg locatorName="XPATH">//*[@class='col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1']//li//span</label_AgreeMsg>
+    </CheckoutPage>
+
+    <ReviewandAcceptPage>
+        <btn_Approve locatorName="XPATH">//button[contains(.,'Approve')]</btn_Approve>
+        <btn_Reject locatorName="XPATH">//button[contains(.,'Reject')]</btn_Reject>
+        <btn_Submit locatorName="XPATH">//button[contains(.,'Submit')]</btn_Submit>
+        <label_PendingEmpLink locatorName="CSSSELECTOR">.banner>div>a</label_PendingEmpLink>
+        <link_EmpName locatorName="XPATH">.//*[@class='table table-hover']//h4</link_EmpName>
+        <link_NewHireEnroll locatorName="XPATH">//h4[contains(.,'New Hire Enrollment')]</link_NewHireEnroll>
+        <label_PendingEventPage locatorName="XPATH">//a[contains(.,'Pending')]</label_PendingEventPage>
+        <btn_RequestRevision locatorName="XPATH">//button[contains(.,'Request Revision')]</btn_RequestRevision>
+        <label_Approve locatorName="XPATH">//h3[contains(.,'Approve')]</label_Approve>
+        <label_SuccessMessage locatorName="XPATH">//span[contains(.,'Success! The event was approved and the employee and carriers have been notified.')]</label_SuccessMessage>
+        <txt_ApproveRejectCommentMsgBox locatorName="XPATH">//textarea[@type='textarea']</txt_ApproveRejectCommentMsgBox>
+         <label_RejectMsg locatorName="XPATH">//*[@class='flash-message-text']</label_RejectMsg>
+        <label_NewHireEnrollment locatorName="XPATH">//*[@class='list-title']//*[contains(text(),'New Hire Enrollment')]</label_NewHireEnrollment>
+        <icon_PushPin locatorName="XPATH">//i[@class='ci-icon-pin ci-icon iconize-icon']</icon_PushPin>
+        <label_NewHire locatorName="XPATH">//span[contains(.,'New Hire')]</label_NewHire>
+        <icon_Calender locatorName="XPATH">//i[@class='ci-icon-calendar ci-icon iconize-icon']</icon_Calender>
+        <label_PendingEOI locatorName="XPATH">//div[contains(.,'Pending Evidence of Insurability')]</label_PendingEOI>
+		    <Label_NewHireEnrollmentPendingEvent locatorName="XPATH">//*[@class='list-title']//h4</Label_NewHireEnrollmentPendingEvent>
+        <label_EventType_NewHire locatorName="XPATH">//*[@class='info']</label_EventType_NewHire>
+        <label_DateOfEvent locatorName="XPATH">//*[@class='info']</label_DateOfEvent>
+        <label_PersonsInvolved locatorName="XPATH">//*[@class='info']</label_PersonsInvolved>
+         <label_Step2ApproveMsg locatorName="XPATH">//*[contains(text(),'Human resources has approved your benefits')]</label_Step2ApproveMsg>
+         <label_Step2RejectMsg locatorName="XPATH">//*[contains(text(),'Human resources has denied your benefits')]</label_Step2RejectMsg>
+         <btn_Cancel locatorName="XPATH">//*[@class='btn btn-lg btn-link']</btn_Cancel>
+        <label_PendingEventsProfile locatorName="XPATH">.//*[@class='benefit-display row']</label_PendingEventsProfile>
+        <label_PendingPlansCost locatorName="XPATH">.//*[@class='program-cost center']//*[@class='xlarge center']</label_PendingPlansCost>
+        <label_visionInsurance locatorName="XPATH">//span[contains(.,'Vision Insurance')]</label_visionInsurance>
+    </ReviewandAcceptPage>  
+    
+    <DentalBenefitsPage>
+        <label_DentalBenefitsText locatorName="XPATH">//*[@class='site-content']//h1//span</label_DentalBenefitsText>
+        <btn_ViewAvailablePlans locatorName="XPATH">.//*[contains(text(),'View Available Plans')]</btn_ViewAvailablePlans>
+        <label_YouremployerisofferingtheplandetailedbelowText locatorName="XPATH">//*[@class='site-content']//h1//span</label_YouremployerisofferingtheplandetailedbelowText>
+        <btn_Continue locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue>
+        <label_WhoWouldYouLikeToCoverWithThisPlanText locatorName="XPATH">//*[@class='site-content']//h1//span</label_WhoWouldYouLikeToCoverWithThisPlanText>
+        <btn_Continue_WouldYouLikeToCover locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue_WouldYouLikeToCover>
+        <label_NewHireEnrollmentPendingEvent locatorName="XPATH">//*[@class='col-md-9']//h4</label_NewHireEnrollmentPendingEvent>
+    </DentalBenefitsPage>
+    
+      <VisionBenefitsPage>
+        <label_VisionBenefitsText locatorName="XPATH">//*[@class='site-content']//h1//span</label_VisionBenefitsText>
+        <btn_ViewAvailablePlans locatorName="XPATH">//*[@class='skip-product-info-button btn btn-default']</btn_ViewAvailablePlans>
+        <label_VisionBenefits_YouremployerisofferingtheplandetailedbelowText locatorName="XPATH">//*[@class='site-content']//h1//span</label_VisionBenefits_YouremployerisofferingtheplandetailedbelowText>
+        <btn_Continue_Youremployerisoffering locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue_Youremployerisoffering>
+        <label_WhoWouldYouLikeToCoverWithThisPlanText locatorName="XPATH">//*[@class='site-content']//h1//span</label_WhoWouldYouLikeToCoverWithThisPlanText>
+        <btn_Continue_WhoWouldYouLikeToCoverWithThisPlan locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue_WhoWouldYouLikeToCoverWithThisPlan>
+    </VisionBenefitsPage>
+
+    <HealthBenefitsPage>
+        <btn_Plans locatorName="XPATH">//button[contains(.,'View Available Plans')]</btn_Plans>
+        <btn_Continue locatorName="XPATH">//button[contains(.,'ContinuewithPPO5000')]</btn_Continue>
+        <btn_Cover locatorName="XPATH">//button[contains(.,'Continue')]</btn_Cover>
+        <btn_ContinuewithTexas locatorName="XPATH">//button[contains(.,'ContinuewithTexas - Insurance Choice Premier Plan')]</btn_ContinuewithTexas>
+
+        <label_HealthBenefitsText locatorName="XPATH">//span[contains(.,'Health Benefits')]</label_HealthBenefitsText>
+        <label_PlanFitsText locatorName="XPATH">//span[contains(.,'Which plan fits you best?')]</label_PlanFitsText>
+        <label_CoverWithText locatorName="XPATH">//span[contains(.,'Who would you like to cover with this plan?')]</label_CoverWithText>
+        <label_EmployerOffering locatorName="XPATH">//span[contains(.,'Your employer is offering the plan detailed below')]</label_EmployerOffering>
+
+    </HealthBenefitsPage>
+
+    <PrimaryCarePhysicianPage>
+        <label_Pcp locatorName="XPATH">//span[contains(.,'Select a primary care physician (PCP)')]</label_Pcp>
+        <link_PcpSkipThis locatorName="XPATH">//span[contains(.,'Skip this')]</link_PcpSkipThis>
+        <link_ImportantNotice locatorName="XPATH">//button[contains(.,'OK with me')]</link_ImportantNotice>
+        <btn_AreYouSure locatorName="XPATH">//button[@class='btn btn-primary']</btn_AreYouSure>
+
+    </PrimaryCarePhysicianPage>
+
+    <MoreThanBenefitPage>
+        <label_MoreBenefits locatorName="XPATH">//span[contains(.,'getting more than just benefits')]</label_MoreBenefits>
+        <btn_LetsGo locatorName="XPATH">//button[@type='button']</btn_LetsGo>
+    </MoreThanBenefitPage>
+
+    <AdditionalinfoPage>
+        <label_AdditionalInfo locatorName="XPATH">//span[contains(.,'Additional information summary')]</label_AdditionalInfo>
+        <btn_AdditionalContinue locatorName="XPATH">//button[contains(.,'Continue')]</btn_AdditionalContinue>
+    </AdditionalinfoPage>
+
+    <ChronicConditionPage>
+        <label_ChronicConditionPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_ChronicConditionPageText>
+        <link_SkipThis locatorName="XPATH">//*[@class='btn btn-skip btn btn-link']</link_SkipThis>
+    </ChronicConditionPage>
+
+    <EnrollmentCompletePage>
+        <label_EnrollmentCompletePageText locatorName="XPATH">//*[@class='enrollment-status-announcement']//span</label_EnrollmentCompletePageText>
+        <btn_ViewOrModify locatorName="XPATH">//button[contains(.,'View or Modify')]</btn_ViewOrModify>
+        <label_Banner locatorName="XPATH">//span[contains(.,'Your elections require approval by your HR or plan administrator.')]</label_Banner>
+
+       <label_benefitsEffective locatorName="XPATH">//*[@class='ben-sum-effective-date-header']//*[contains(text(),'Benefits')]</label_benefitsEffective> 
+        <btn_EnrollmentCloseStatus locatorName="XPATH">//*[contains(.,'Your enrollment period is over')]</btn_EnrollmentCloseStatus>
+    </EnrollmentCompletePage>
+
+    <EnrollmentClosedPage>
+        <label_EnrollmentHasClosedPageText locatorName="XPATH">//*[@class='col-md-6 col-xs-6']//h1//span</label_EnrollmentHasClosedPageText>
+         <btn_ViewMyBenifits locatorName="XPATH">//*[@class='view-my-benefits-button btn btn-primary']</btn_ViewMyBenifits>
+         <label_benefitsEffective locatorName="XPATH">//*[@class='ben-sum-effective-date-header']//*[contains(text(),'Benefits')]</label_benefitsEffective>
+    </EnrollmentClosedPage>
+
+    <StressAffectingPage>
+        <label_StressAffectingPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_StressAffectingPageText>
+        <link_SkipThis locatorName="XPATH">//*[@class='btn btn-skip btn btn-link']</link_SkipThis>
+    </StressAffectingPage>
+
+    <MemberOfYourFamilyPregnantPage>
+        <label_MemberOfYourFamilyPregnantPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_MemberOfYourFamilyPregnantPageText>
+        <link_SkipThis locatorName="XPATH">//*[@class='btn btn-skip btn btn-link']</link_SkipThis>
+        <link_Yes locatorName="XPATH">//i[@class='choice-icon choice-icon-checkmark']</link_Yes>
+
+    </MemberOfYourFamilyPregnantPage>
+
+    <AreYouInterestedInLosingWeightPage>
+        <label_AreYouInterestedInLosingWeightPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_AreYouInterestedInLosingWeightPageText>
+        <link_SkipThis locatorName="XPATH">//*[@class='btn btn-skip btn btn-link']</link_SkipThis>
+    </AreYouInterestedInLosingWeightPage>
+
+    <HealthBeginPage>
+        <label_HealthBeginPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_HealthBeginPageText>
+        <btn_Continue locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue>
+    </HealthBeginPage>
+
+      <HealthProgramSummaryPage>
+        <label_HealthProgramsSummaryPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_HealthProgramsSummaryPageText>
+        <btn_MakeChangesHealthProgPage locatorName="XPATH">//button[contains(.,'Make Changes')]</btn_MakeChangesHealthProgPage>
+        <btn_Ok locatorName="XPATH">//button[contains(.,'OK')]</btn_Ok>
+        <btn_Continue_HealthProgram locatorName="XPATH">//button[contains(.,'Continue')]</btn_Continue_HealthProgram>
+        <label_HealthProgramsTxt locatorName="XPATH">//span[contains(.,'Health programs summary')]</label_HealthProgramsTxt>
+     </HealthProgramSummaryPage>
+
+    <CommunicationPreferencesPage>
+        <label_CommunicationPreferencesPageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_CommunicationPreferencesPageText>
+        <btn_Continue locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue>
+    </CommunicationPreferencesPage>
+
+    <SummaryOfYourBenefitsPage>
+        <label_SummaryOfYourBenefitsPageText locatorName="XPATH">//*[@class='site-content']//h1//span</label_SummaryOfYourBenefitsPageText>
+        <label_YourElectionsHaveBeenApproved locatorName="XPATH">//*[contains(text(),'Your elections have been approved')]</label_YourElectionsHaveBeenApproved>
+         <label_YourCoverageIsPending locatorName="XPATH">//*[@class='notifications']//h6</label_YourCoverageIsPending>
+         <label_YourElectionsRequireApproval locatorName="XPATH">//*[@class='notifications']//span</label_YourElectionsRequireApproval>
+        <btn_MakeChanges locatorName="XPATH">//*[@class='make-changes-button btn btn-default']//span</btn_MakeChanges>
+        <btn_SaveAndContinue locatorName="XPATH">//button[contains(.,'Save and Continue')]</btn_SaveAndContinue>
+    </SummaryOfYourBenefitsPage>
+    
+    <LifeInsurancePage>
+        <label_LifeInsurancePageText locatorName="XPATH">//*[@class='header-content']//h1//span</label_LifeInsurancePageText>
+        <btn_ViewAvailablePlans locatorName="XPATH">.//*[contains(text(),'View Available Plans')]</btn_ViewAvailablePlans>
+    </LifeInsurancePage>
+    
+    <HowMuchCoverageWouldYouLikePage>
+        <label_HowMuchCoverageWouldYouLikePageText locatorName="XPATH">//*[@class='site-content-header-container col-print-12 col-md-12 col-xs-12']//h1//span</label_HowMuchCoverageWouldYouLikePageText>
+        <btn_Continue locatorName="XPATH">//*[@class='btn btn-primary']</btn_Continue>
+        <link_CustomizeYourCoverage locatorName="XPATH">//*[@class='package-customize']//span</link_CustomizeYourCoverage>
+        <txt_SupplementalLifeADandD locatorName="XPATH">//*[@class='clicker-box']</txt_SupplementalLifeADandD>
+        <btn_OkGotIt locatorName="XPATH">//*[@class='btn btn-primary']//span</btn_OkGotIt>
+        <btn_TakeMeBack locatorName="XPATH">//*[@class='btn btn-boring btn-boring-default']//span</btn_TakeMeBack>
+    </HowMuchCoverageWouldYouLikePage>
+    
+    
+</OR>

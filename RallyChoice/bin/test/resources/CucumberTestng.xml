@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Provider Phycon Smoke Test Suite">
+	<listeners>
+		<listener class-name="com.qa.phycon.automation.phyconUI.reporting.Report" />
+	</listeners>
+	<test name="Tests">
+		<classes>
+			<class
+				name="com.qa.phycon.automation.phyconUI.core.generic.utilities.CucumberRunner" />
+		</classes>
+	</test>
+</suite>
